@@ -1,0 +1,33 @@
+Game Set Up
+
+*Enemy 
+- Enemy aircraft consist of 3 types.
+	- going from low to mid, then to advanced
+	- as the level of aircraft goes up, its speed decrease
+- the low level aircraft require 1 bullet to be destroyed
+- the mid level aircraft require 8 bullet to be destroyed
+- the advanced level aircraft require 20 bullet to be destroyed
+
+*Player
+- Range of the player's bullet goes up 
+  to 80 percent of the screen height
+- The score for destroying a low level enemy aircraft
+  is 1000 points
+- The score for destroying a mid level enemy aircraft
+  is 5000 points
+- The score for destroying an advanced level enemy aircraft
+  is 10000 points
+-player has 3 lives, once all gone; the game will end
+
+*Supply
+- every 30s, a supply is dropped and enters the vision of the user
+-there are two types of supply
+	-bomb supply(essentially destroys all enemy
+	 aircraft on the screen
+	-advanced bullet for aircraft but only lasting 18s
+- the max number of bomb that can be stored is 3
+
+*Difficulty
+- the difficulty of the game is based on the score of the user/player.
+- the speed of the enemy plane and the number of aircrafts will increase
+  with the difficulty.
